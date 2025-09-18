@@ -1,7 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Случайное число от 0 до 1: " + Math.random());
+    public static void main(String[] args) { // Добавь параметры здесь!
+        System.out.println("Vvedite text i nazhmite <Enter>");
+
+        String text = new Scanner(System.in).nextLine();
+        System.out.println("Dlina teksta: " + text.length());
     }
 }
